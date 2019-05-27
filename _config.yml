@@ -1,0 +1,12 @@
+title: Bodega Giacometti
+email: contacto@bodegagiacometti.com
+description: >-
+  Bodega Giacometti (República del Paraguay)
+baseurl: ""
+url: "https://www-test.bodegagiacometti.com"
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
