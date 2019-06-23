@@ -3,7 +3,7 @@
     $('.navbar-collapse').collapse('hide')
   })
 
-  $(document).on('submit', 'form.needs-validation', function (event) {
+  $(document).on('submit', '[data-toggle="validation"]', function (event) {
     var form = event.currentTarget
 
     if (form.checkValidity() === false) {
